@@ -1,0 +1,316 @@
+.bizdevim--drive .phone {
+  width: 360px;
+}
+.bizdevim--drive .phone__body {
+  max-width: 297px;
+  max-height: 631px;
+}
+.bizdevim--drive .phone__icons svg {
+  height: 8px;
+}
+.bizdevim--drive .phone__icons svg:not(:last-child) {
+  margin-right: 2px;
+}
+.bizdevim--drive .phone__arrow svg {
+  height: 25px;
+}
+.bizdevim--drive .phone__personal-text {
+  font-size: 11px;
+}
+.phone__personal-btns {
+  display: flex;
+  align-items: center;
+}
+.bizdevim--drive .phone__personal-btns button {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.bizdevim--drive .phone__personal-btns button:not(:last-child) {
+  margin-right: 5px;
+}
+.bizdevim--drive .phone__user {
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 9px;
+}
+.bizdevim--drive .phone__info img {
+  width: 32px;
+  height: 32px;
+}
+.bizdevim--drive .phone__name strong {
+  font-size: 12px;
+  margin-bottom: 1px;
+  line-height: 16px;
+}
+.bizdevim--drive .phone__name svg {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+}
+.bizdevim--drive .phone__name span {
+  font-size: 11px;
+  line-height: 14px;
+}
+.bizdevim--drive .phone__role {
+  font-size: 8px;
+  height: 14px;
+  min-width: 34px;
+}
+.bizdevim--drive .phone__tags-list {
+  font-size: 11px;
+  line-height: 13px;
+}
+.bizdevim--drive .tabs__buttons {
+  height: 34px;
+}
+.bizdevim--drive .phone__tags {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.bizdevim--drive .tabs__buttons button {
+  font-size: 10px;
+  line-height: 10px;
+}
+.bizdevim--drive .phone__social a svg {
+  height: 16px;
+  width: 16px;
+  margin-bottom: 1px;
+}
+.bizdevim--drive .phone__content b {
+  margin-bottom: 6px;
+  font-size: 10px;
+  line-height: 10px;
+}
+.bizdevim--drive .phone__content p {
+  font-size: 10px;
+  line-height: 14px;
+}
+.bizdevim--drive .phone__content :where(p, a) + b {
+  margin-top: 12px;
+}
+.bizdevim--drive .phone__content a {
+  font-size: 10px;
+  line-height: 14px;
+}
+.bizdevim--drive .phone__body {
+  padding-bottom: 52px;
+}
+.bizdevim--drive .phone__panel a {
+  font-size: 10px;
+}
+.bizdevim--drive .phone__panel span {
+  font-size: 10px;
+  line-height: 13px;
+}
+.bizdevim--drive .phone__nav li {
+  font-size: 8px;
+  line-height: 9px;
+}
+.bizdevim--drive .phone-wanna {
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 70px;
+}
+.bizdevim--drive .phone-btns {
+  display: none;
+}
+.bizdevim--drive .bizdevim {
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+.bizdevim--drive .bizdevim__top {
+  margin-top: 47px;
+}
+.bizdevim--drive .page-main {
+  padding-bottom: 0;
+}
+
+.bizdevim--drive .bizdevim__container {
+  max-width: 1260px;
+}
+
+.bizdevim__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bizdevim__col > *,
+.bizdevim__col .form__box {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bizdevim__col {
+  margin-top: 45px;
+}
+
+.bizdevim--drive .bizdevim__title {
+  font-size: 45px;
+}
+
+.page__body.drive {
+  background-color: #fff;
+}
+
+.page__body.drive .page-main {
+  padding-bottom: 74px;
+}
+
+.bizdevim--drive {
+  background: url(/img/bg-ellipse.svg) no-repeat top -140px center / cover;
+  padding-bottom: 19px;
+}
+
+.share__subtitle {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #A6ADB9;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.share__subtitle span {
+  color: #1682F1;
+}
+
+.share__subtitle i {
+  font-style: normal;
+}
+
+.share__list {
+  display: grid;
+  grid-template-columns: repeat(4, 30px);
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.share__title {
+  font-size: 45px;
+}
+
+.bizdevim--drive .phone__time {
+  font-size: 10px;
+}
+
+.share__or {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #A6ADB9;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.share__ask {
+  font-size: 20px;
+  line-height: 27px;
+  color: #A6ADB9;
+  margin: 0;
+  text-align: center;
+}
+
+.phone__demo {
+  top: -16px;
+}
+
+.phone__demo--bottom {
+  top: auto;
+}
+
+.bizdevim--drive .phone__content p {
+  white-space: nowrap;
+}
+
+@media(max-width: 1119px) {
+  .bizdevim__row {
+    flex-direction: column;
+  }
+  .bizdevim__col > *, .bizdevim__col .form__box {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bizdevim--drive .bizdevim__top {
+    margin-bottom: 70px;
+  }
+  .bizdevim__col {
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 575px) {
+  .bizdevim--drive .bizdevim__title, .share__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .share__subtitle i {
+    display: none;
+  }
+  .bizdevim--drive .bizdevim__container {
+    padding: 0;
+  }
+  .bizdevim--drive .bizdevim__col {
+    padding: 0 20px;
+  }
+  .share__title {
+    margin-bottom: 15px;
+  }
+  .share__subtitle {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 32px;
+  }
+  .page__body.drive {
+    background-color: #F8FBFF;
+  }
+  .bizdevim--drive {
+    padding-top: 60px;
+  }
+  .share {
+    padding-top: 23px;
+  }
+  .share__title {
+    margin-bottom: 12px;
+  }
+  .share__list {
+    column-gap: 45px;
+  }
+  .share__or {
+    margin-top: 27px;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+  .share__ask {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .page__body.drive .page-main {
+    padding-bottom: 70px;
+  }
+}
+
+
+@media (max-width: 359px) {
+  .bizdevim--drive .phone {
+    width: 320px;
+  }
+  .bizdevim--drive .phone__body {
+    max-width: 270px;
+    max-height: 100%;
+  }
+}
+
+@media(min-width: 1600px) {
+  .bizdevim--drive {
+    margin-bottom: 50px;
+  }
+}

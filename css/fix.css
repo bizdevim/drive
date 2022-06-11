@@ -1,0 +1,15 @@
+@media(min-width: 900px) and (min-height: 750px) {
+  html, body {
+    overflow: hidden;
+  }
+  .page-main {
+    padding-bottom: 88px;
+  }
+  .page-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+  }
+}
